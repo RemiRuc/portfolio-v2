@@ -1,18 +1,24 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LandingPage></LandingPage>
+    <div id="nav">
+      <a href="/fr" replace>Français</a> |
+      <a href="/jp" replace>Japonais</a> |
+      <a href="/sr" replace>Serbe</a> |
+      <a href="/en" replace>Anglais</a> || 
+      <router-link :to="{name: 'about'}">About</router-link>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import LandingPage from '@/components/LandingPage.vue'
 
 export default {
   name: 'home',
   components: {
-    HelloWorld
+    LandingPage,
   }
 }
 </script>
