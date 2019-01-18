@@ -12,17 +12,15 @@ export default new Router({
   routes: [
     {
       path:'/',
-      redirect: {name:'main', params:{lang: i18n.locale}}
+      redirect: {name:'home', params:{lang: i18n.locale}}
     },
     {
-      name: 'main',
       path: '/:lang',
       component:function () { 
-        return import(/* webpackChunkName: "about" */ './App.vue')
+        return import('./App.vue')
       },
       beforeEnter: (to, from, next) => {
         const lang = to.params.lang
-        console.log('yo')
         if (!['fr','jp', 'sr', 'en'].includes(lang)) return next(to.params.lang)
         if (i18n.locale === lang) return next()
         import('./lang/assets/'+lang+'.json').then((msgs) => {
@@ -39,16 +37,16 @@ export default new Router({
           path: '',
           component: Home,
         },
-          {
-            path: 'about',
-            name: 'about',
-            // route level code-splitting
-            // this generates a separate chunk (about.[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
-            component: function () { 
-              return import(/* webpackChunkName: "about" */ './views/About.vue')
-            }
+        {
+          path: 'about',
+          name: 'about',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: function () { 
+            return import(/* webpackChunkName: "about" */ './views/About.vue')
           }
+        }
       ]
     },
   ]

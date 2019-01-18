@@ -45,6 +45,7 @@ body{
   overflow-x: hidden;
 }
 a{
+  display: block;
   color: black;
   text-decoration: none;
 }
@@ -78,6 +79,14 @@ h1, h2, h3, h4, p, a{
   position: absolute; /* postulat de départ */
   top: 50%; left: 50%; /* à 50%/50% du parent référent */
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+.flex-horizontal{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center{
+  justify-content: center;
 }
 #nav {
   padding: 30px;

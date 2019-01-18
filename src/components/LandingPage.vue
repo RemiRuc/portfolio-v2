@@ -5,6 +5,11 @@
     <div class="center">
       <h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1>
       <h2>{{ $t("post") }}</h2>
+      <p class="enjoy">Savour ses journées chez :</p>
+      <div class="from flex-horizontal flex-center">
+        <a href="#"><img src="https://fakeimg.pl/80x80/"><p>IBM</p></a>
+        <a href="#"><img src="https://fakeimg.pl/80x80/"><p>Gobelins,<br>l'école de l'image</p></a>
+      </div>
     </div>
   </section>
 
@@ -57,7 +62,21 @@
           font-size: 6vw;
         }
     }
-    @media screen and (min-width: 1000px) {
+    .center{
+      width: 100%;
+    }
+    .enjoy{
+      margin: 30px 0px 15px 0px;
+
+      font-size: 1.5em;
+    }
+    .from{
+      &:nth-child(1){
+        margin-right: 10px;
+      }
+    }
+
+      @media screen and (min-width: 1000px) {
       h1{
         font-size: 6em;
 
@@ -73,10 +92,7 @@
           font-size: 3.8em;
         }
       }
-
-    }
-    .center{
-      width: 100%;
     }
   }
+
 </style>
