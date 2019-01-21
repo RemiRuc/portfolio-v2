@@ -1,5 +1,17 @@
 {
     "first-name": "Rémi",
     "family-name": "Rucojevic",
-    "post": "Développeur full-stack"
+    "post": "Développeur full-stack",
+    
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "experience": "Expérience",
+    "contact": "Contact",
+
+    
+    "IMNM": "Ima Made Nando Mo",
+
+    "CreativeSound": "Creative Sound experience",
+    "webApplication": "Application web",
+    "penaltyGame": "Jeu de penalty"
 }

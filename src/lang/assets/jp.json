@@ -1,5 +1,12 @@
 {
     "first-name": "ルコジェビック",
     "family-name": "レミ",
-    "post": "フルスタックエンジニア"
+    "post": "フルスタックエンジニア",
+
+    "portfolio": "手本帖",
+    "about": "私に就いて",
+    "experience": "職歴",
+    "contact": "接触",
+
+    "IMNM": "今まで何度も"
 }

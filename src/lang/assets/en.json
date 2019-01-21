@@ -1,5 +1,10 @@
 {
     "first-name": "Rémi",
     "family-name": "Rucojevic",
-    "post": "Full-stack developer"
+    "post": "Full-stack developer",
+
+    "portfolio": "Portfolio",
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact"
 }
