@@ -3,10 +3,10 @@
   <nav class="navigation" :class="section">
         <ul class="flex-horizontal flex-center">
           <li class="home-route"><router-link :to="{name:'home', params:{lang: i18n.locale}}" exact><h1>R<span>R</span></h1></router-link></li>
-          <li><router-link :to="{name:'portfolio', params:{lang: i18n.locale}}" exact><i class="fas fa-dot-circle"></i><span>{{ $t("portfolio") }}</span></router-link></li>
-          <li><router-link :to="{name:'about', params:{lang: i18n.locale}}" exact><i class="fas fa-address-card"></i><span>{{ $t("about") }}</span></router-link></li>
-          <li><router-link :to="{name:'experience', params:{lang: i18n.locale}}" exact><i class="fas fa-building"></i><span>{{ $t("experience") }}</span></router-link></li>
-          <li><router-link :to="{name:'contact', params:{lang: i18n.locale}}" exact><i class="fas fa-comments"></i><span>{{ $t("contact") }}</span></router-link></li>
+          <li><router-link :to="{name:'home', params:{lang: i18n.locale}, hash: '#portfolio'}" exact><i class="fas fa-dot-circle"></i><span>{{ $t("portfolio") }}</span></router-link></li>
+          <li><router-link :to="{name:'home', params:{lang: i18n.locale}, hash: '#about'}" exact><i class="fas fa-address-card"></i><span>{{ $t("about") }}</span></router-link></li>
+          <li><router-link :to="{name:'home', params:{lang: i18n.locale}, hash: '#experiences'}" exact><i class="fas fa-building"></i><span>{{ $t("experience") }}</span></router-link></li>
+          <li><router-link :to="{name:'home', params:{lang: i18n.locale}, hash: '#contact'}" exact><i class="fas fa-comments"></i><span>{{ $t("contact") }}</span></router-link></li>
         </ul>
   </nav>
 
@@ -56,6 +56,7 @@
       margin-left: 0px;
 
       font-size: 1.4em;
+      
 
       
          

@@ -1,24 +1,26 @@
 <template lang="html">
 
-  <header class="landing-page">
+  <section class="landing-page">
     <div class="blue-cache"></div>
     <div class="center">
-      <h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1>
-      <h2>{{ $t("post") }}</h2>
+      <div class="landing-page-reveal" v-scroll-reveal.reset><h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1></div>
+      <div class="landing-page-reveal" v-scroll-reveal.reset = "{delay: 60}"><h2>{{ $t("post") }}</h2></div>
 
-      <div class="from flex-horizontal flex-center">
-        <a href="#"><img src="https://fakeimg.pl/80x80/"><p>IBM</p></a>
-        <a href="#"><img src="https://fakeimg.pl/80x80/"><p>Gobelins</p></a>
+      <div v-scroll-reveal.reset = "{delay: 120}" class="from">
+        <div class="landing-page-reveal"><a href="#"><img class="white" src="/img/exp/ibm.png"></a></div>
+        <div class="landing-page-reveal"><a href="#"><img class="white" src="/img/exp/gobelins.png"></a></div>
       </div>
 
-      <Navigation section="landing"></Navigation>
+      <Navigation class="landing-page-reveal" section="landing" v-scroll-reveal.reset = "{delay: 180}"></Navigation>
     </div>
-  </header>
+  </section>
 
 </template>
 
 <script lang="js">
   import Navigation from '@/components/Navigation.vue';
+  //import ScrollReveal from 'scrollreveal';
+
 
   export default  {
     name: 'landing-page',
@@ -27,7 +29,8 @@
     },
     props: [],
     mounted() {
-      
+           // ScrollReveal().reveal('.landing-page-reveal', { duration: 1000, distance: '100px', origin: 'left', reset: true, interval: 60 })
+           // console.log(ScrollReveal().store)
     },
     data() {
       return {
@@ -49,11 +52,16 @@
     width: 100vw;
     height: 100vh;
 
+    top: 0;
+
     z-index: 2;
 
     background: url("../assets/img/bgapropos.jpg"), var(--blue);
     background-position: center center;
     background-size: cover;
+    .landing-page-reveal{
+          display: block;
+    }
     h1{
       font-size: 9.5vw;
 
@@ -76,15 +84,33 @@
     }
     .from{
       margin: 30px 0px;
+
+      .landing-page-reveal{
+          display: inline-block;
+      }
       a{
-        flex: 0 1 150px;
+        cursor: default;
 
         font-size: 1.2em;
 
         transition: all 0.5s;
+
+            margin: 0px 15px;
+
+        img{
+          width: 80px;
+          height: 80px;
+
+          transition: all 0.5s ease;
+        }
+
       }
       a:hover{
         font-size: 1.4em;
+      }
+      a:hover img{
+        width: 100px;
+        height: 100px;
       }
     }
 
@@ -106,5 +132,21 @@
       }
     }
   }
+
+.fade-enter-active, .fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+.fade-enter-to, .fade-leave{
+    transform: blur(0px);
+    opacity: 1;
+}
+
+.fade-enter, .fade-leave-to{
+    filter: blur(10px);
+    opacity: 0;
+}
 
 </style>

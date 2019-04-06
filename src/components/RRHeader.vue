@@ -1,9 +1,9 @@
 <template lang="html">
 
-  <section class="rr-header" :class="{'hide': $route.name === 'home'}">
-    <router-link :to="{name:'home', params:{lang: i18n.locale}}"><h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1></router-link>
+  <nav class="rr-header">
+    <router-link class="home-route" :to="{name:'home', params:{lang: i18n.locale}}"><h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1></router-link>
     <Navigation section="header"></Navigation>
-  </section>
+  </nav>
 
 </template>
 
@@ -51,23 +51,11 @@
 
     display: flex;
 
-    background-color: rgba(46, 171, 98, 0.6);
-
     transition: all 0.5s;
 
     justify-content: space-between;
 
-    z-index: 1;
-
-    &:hover{
-      background-color: rgba(46, 171, 98, 1);
-    }
-
-    h1{
-      span{
-        color: white;
-      }
-    }
+    z-index: 3;
 
     nav ul li a{
       font-size: 1em;
@@ -78,8 +66,6 @@
       align-items: center;
 
       margin-left: 15px;
-
-      cursor: pointer;
     }
     @media screen and (min-width: 800px){
       a{
@@ -91,4 +77,14 @@
   .hide{
     transform: translateY(-45px);
   }
+
+    /** THEME BLUE **/
+    .blue-theme{
+      
+    }
+
+        /** THEME WHITE **/
+    .white-theme{
+
+    }
 </style>
