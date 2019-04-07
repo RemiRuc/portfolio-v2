@@ -169,7 +169,7 @@ h1, h3, h4, p, a, ul{
   bottom: 0;
   right: 0;
 
-  opacity: 0.7;
+  opacity: 0.3;
 }
 .center {
   position: absolute; /* postulat de départ */
@@ -220,7 +220,7 @@ h1, h3, h4, p, a, ul{
 }
 
 .mouse.hover{
-  background-color: #c93535;
+  background-color: rgba();
   width: 35px;
   height: 35px;
 }
@@ -322,6 +322,38 @@ html.blue-theme{
   
   a{
     color: @text_secondary;
+  }
+
+  .landing-page {
+    .navigation{
+      li{
+        &:hover a:before{
+          width: 110%;
+        }
+        a{
+          position: relative;
+          color: @text_principal;
+          
+
+          &:before{
+            content: '';
+            position: absolute;
+            transition: all 0.3s ease;
+            width: 0%;
+            background-color: #2EAB62;
+            bottom: -10px;
+            top: -10px;
+            left: -5px;
+            /* right: -10px; */
+            z-index: -1;
+          }
+
+          &:hover{
+            
+          }
+        }
+      }
+    }
   }
   
   .section-title{

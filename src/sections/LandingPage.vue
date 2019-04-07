@@ -83,7 +83,7 @@
       width: 100%;
     }
     .from{
-      margin: 30px 0px;
+      margin: 90px 0px;
 
       .landing-page-reveal{
           display: inline-block;
