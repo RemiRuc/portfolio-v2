@@ -1,6 +1,6 @@
 <template lang="html">
 
-  <router-link :to='{path: "portfolio/"+link}' class="portfolio-block" append>
+  <router-link :to='{name: "project", params:{projet: link}}' class="portfolio-block" append>
     <div class="block">
       <div class="img" :style="'background-image: url(/img/projet/'+link+'.jpg)'"></div>
       <!--<div class="cache"><i class="fas fa-binoculars"></i></div>-->

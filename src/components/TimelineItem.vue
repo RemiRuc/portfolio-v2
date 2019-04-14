@@ -6,7 +6,7 @@
 				<div class="timeline-item-details-marker"></div>
 				<div class="timeline-item-details-description">
 					<h2>{{entreprise}} : {{poste}}</h2>
-					<p>{{description}}</p>
+					<p v-html="description"></p>
 				</div>
 			</div>
   </div>
@@ -40,12 +40,14 @@
 }
 </script>
 
-<style scoped lang="less">
+<style lang="less">
   .timeline-item {
     margin: 0 0;
+    display: flex;
     @media (max-width: 1230px){
         width: 100%;
         text-align: center;
+        justify-content: center
     }
     .timeline-item-details {
       display: inline-block;
@@ -113,6 +115,9 @@
         opacity: .7;
         transition-property: opacity;
         transition-duration: .5s;
+            a{
+      font-weight: bolder;
+    }
         @media (max-width: 1230px) {
             opacity: 1;
         }

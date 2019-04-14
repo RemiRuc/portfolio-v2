@@ -2,23 +2,32 @@
 
   <section class="contact" id="contact">
     <h2 class="section-title">{{$t("contact")}}</h2>
-    <div class="contact-links flex-horizontal flex-center">
-      <div class="contact-reveal"><a href="https://twitter.com/RemiRucojevic" target="_blank"><i class="fab fa-twitter"></i><p>@RemiRucojevic</p></a></div>
-      <div class="contact-reveal"><a href="https://www.linkedin.com/in/r%C3%A9mi-rucojevic/" target="_blank"><i class="fab fa-linkedin"></i><p>Rémi Rucojevic</p></a></div>
-      <div class="contact-reveal"><a href="https://github.com/RemiRuc" target="_blank"><i class="fab fa-github"></i><p>RemiRuc</p></a></div>
-      <div class="contact-reveal"><a href="https://codepen.io/RemiRuc/" target="_blank"><i class="fab fa-codepen"></i><p>RemiRuc</p></a></div>
+    <p v-scroll-reveal.reset>Besoin d'un site ? N'hésitez pas à me contacter sur les réseaux sociaux ou par mail pour me parler de votre projet et demander votre devis gratuit !<br>Une question ? Envie de discuter, de prendre un café ? Pareil, utilisez les liens ci-dessous et prenons contact ensemble !</p>
+    <div class="contact-links">
+      <div v-scroll-reveal.reset = "{delay: 60}" class="contact-reveal"><a href="https://twitter.com/RemiRucojevic" target="_blank"><i class="fab fa-twitter"></i><p>@RemiRucojevic</p></a></div>
+      <div v-scroll-reveal.reset = "{delay: 120}" class="contact-reveal"><a href="https://www.linkedin.com/in/r%C3%A9mi-rucojevic/" target="_blank"><i class="fab fa-linkedin"></i><p>Rémi Rucojevic</p></a></div>
+      <div v-scroll-reveal.reset = "{delay: 180}" class="contact-reveal"><a href="https://github.com/RemiRuc" target="_blank"><i class="fab fa-github"></i><p>RemiRuc</p></a></div>
+      <div v-scroll-reveal.reset = "{delay: 240}" class="contact-reveal"><a href="https://codepen.io/RemiRuc/" target="_blank"><i class="fab fa-codepen"></i><p>RemiRuc</p></a></div>
+      <div v-scroll-reveal.reset = "{delay: 300}" data-clipboard-text="remi.rucojevic@gmail.com" class="contact-reveal mail"><a><i class="fas fa-at"></i><p>remi.rucojevic@gmail.com</p></a></div>
     </div>
+    <p class="toast">remi.rucojevic@gmail.com copié dans le presse-papier</p>
   </section>
 
 </template>
 
 <script lang="js">
-  import ScrollReveal from 'scrollreveal';
+  import ClipBoard from 'clipboard';
   export default  {
     name: 'contact',
     props: [],
     mounted() {
-      ScrollReveal().reveal('.contact-reveal', { duration: 1000, distance: '100px', origin: 'left', reset: true, interval: 200 })
+      let mail = new ClipboardJS('.mail')
+      mail.on('success', function(e) {
+        document.querySelector('.toast').style.display = "table"
+        window.setTimeout(() => {
+          document.querySelector('.toast').style.display = "none"
+        }, 2000);
+      });
     },
     data() {
       return {
@@ -38,11 +47,10 @@
   .contact {
     .contact-links{
       width: 100%;
-      height: calc(100vh - 45px - 194.05px);
-      align-items: center;
       .contact-reveal{
-        //flex: 0 1 310px;
-        width: 310px;
+          display: inline-block;
+         min-width: 310px;
+         margin-bottom: 20px;
       }
       a{
         position: relative;
@@ -53,6 +61,8 @@
         transition: all 0.5s;
 
         p{
+          display: table;
+          margin: auto;
           &::after{
             content: '';
             position: absolute;
@@ -80,6 +90,29 @@
 
         margin: 10px 0px;
       }
+      .mail{
+        @media screen and (max-width: 427px) {
+          font-size: 0.7em;
+          a{
+            &:hover{
+              font-size: 2em;
+            }
+          }
+        }
+      }
+    }
+    .toast{
+      display: none;
+      margin: auto;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    >p{
+      font-size: 1.2em;
+      margin: 50px 0px;
+      line-height: 40px;
     }
   }
 </style>

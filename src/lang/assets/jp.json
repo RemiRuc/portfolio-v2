@@ -2,11 +2,16 @@
     "first-name": "ルコジェビック",
     "family-name": "レミ",
     "post": "フルスタックエンジニア",
+    "local": "Noisiel, France",
 
     "portfolio": "手本帖",
     "about": "私に就いて",
     "experience": "職歴",
     "contact": "接触",
 
-    "IMNM": "今まで何度も"
+    "IMNM": "今まで何度も",
+
+    "CreativeSound": "クリエイティブサウンド体験",
+    "webApplication": "ウェブアプリケーション",
+    "penaltyGame": "ペナルティのゲーム"
 }

@@ -2,9 +2,18 @@
     "first-name": "Rémi",
     "family-name": "Rucojevic",
     "post": "Full-stack developer",
+    "local": "Noisiel, France",
 
     "portfolio": "Portfolio",
     "about": "About",
     "experience": "Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+
+
+    
+    "IMNM": "Ima Made Nando Mo",
+
+    "CreativeSound": "Creative Sound experience",
+    "webApplication": "Application web",
+    "penaltyGame": "Jeu de penalty"
 }

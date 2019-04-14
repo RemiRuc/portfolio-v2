@@ -5,17 +5,17 @@
     <div class="timeline-container">
       <div class="timeline">
         <h3>Professionnelle :</h3>
-        <TimelineItem v-scroll-reveal.reset entreprise='IBM' entrepriseImg="IBM" poste='Apprenti développeur front' date='Depuis octobre 2018' description='Travail au sein d"une équipe agile pour le client Royal Canin : Développeur front pour une application web déstinée aux vétérinaires réalisée sous Angular 6.'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset entreprise='TOOSLA' entrepriseImg="toosla" poste='Stagiaire développeur full-stackt' date='Avril 2018 - Juin 2018' description='Interviens en tant que stagiaire sur la gestion du backoffice, l"API et le site internet. Utilisation des frameworks Laravel et Angular.JS sous les environnements Docker et Linux.'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset entreprise='CAQ.fr' entrepriseImg="caq" poste='Rédacteur web et assistant webmaster' date='Décembre 2017 - Janvier 2018' description='Ecris des articles dans une logique SEO et assiste le gérant du site sur certaines tâches de maintenance (Gestion de Wordpress, création de sous-domaines...)'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='"My Parents Mind"' entrepriseImg="myParentsMind" poste='Développeur web, ingénieur son et manager de l"équipe artistique' date='Mars 2017 - Mars 2018' description='Interviens sur la création du site web promotionnel et la composition musicale du court métrage d"animation "Ce que disent mes parents : My parents" mind". Manage l"équipe artistique composée de 4 personnes.'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset entreprise='Stage au Japon' entrepriseImg="laforet" poste='' date='Juillet-Août 2017' description='Juillet : Stage linguistique à TOHO International College (Tokyo) Août : Stagiaire «employé polyvalent» au Resort-Hôtel Laforet (Hakuba)'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.ibm.name")' entrepriseImg="ibm" :poste='$t("pro.ibm.poste")' :date='$t("pro.ibm.date")' :description='$t("pro.ibm.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.toosla.name")' entrepriseImg="toosla" :poste='$t("pro.toosla.poste")' :date='$t("pro.toosla.date")' :description='$t("pro.toosla.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.caq.name")' entrepriseImg="caq" :poste='$t("pro.caq.poste")' :date='$t("pro.caq.date")' :description='$t("pro.caq.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.myParentsMind.name")' entrepriseImg="myParentsMind" :poste='$t("pro.myParentsMind.poste")' :date='$t("pro.myParentsMind.date")' :description='$t("pro.myParentsMind.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.laforet.name")' entrepriseImg="laforet" :poste='$t("pro.laforet.poste")' :date='$t("pro.laforet.date")' :description='$t("pro.laforet.description")'></TimelineItem>
       </div>
       <div class="timeline">
         <h3>Scolaire :</h3>
-        <TimelineItem v-scroll-reveal.reset entreprise='Gobelins, l"école de l"image' entrepriseImg="gobelins" poste='' date='Depuis septembre 2018' description='Bachelor Designer & Développeur Interactif : Formation en alternance dans le domaine du développement web. Option : Développement'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset entreprise='Université Paris-Est Marne-La-Vallée - IUT de Meaux (77)' entrepriseImg="upem" poste='' date='2016-2018' description='DUT MMI (Métiers du multimédia et de l’internet) : Apprentissage des compétences liées au multimédia : Programmation web, programmation androïd, infographie, plan de communication, sécurité des réseaux, montage vidéo... Spécialité : Développement'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset entreprise='Lycée René Cassin à Noisiel (77)' entrepriseImg="cassin" poste='' date='2014-2016' description='Baccalauréat S (Scientifique) Option : SI (Science de l’ingénieur) Spécialité : ISN (Informatique et sciences du numérique)'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.gobelins.name")' entrepriseImg="gobelins" :poste='$t("edu.gobelins.poste")' :date='$t("edu.gobelins.date")' :description='$t("edu.gobelins.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.upem.name")' entrepriseImg="upem" :poste='$t("edu.upem.poste")' :date='$t("edu.upem.date")' :description='$t("edu.upem.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.cassin.name")' entrepriseImg="cassin" :poste='$t("edu.cassin.poste")' :date='$t("edu.cassin.date")' :description='$t("edu.cassin.description")'></TimelineItem>
       </div>
     </div>
   </section>
@@ -25,7 +25,6 @@
 
 <script lang="js">
   import TimelineItem from "@/components/TimelineItem.vue";
-    import ScrollReveal from 'scrollreveal';
 
   export default  {
     name: 'experiences',

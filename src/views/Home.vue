@@ -5,6 +5,7 @@
     <About></About>
     <Experiences></Experiences>
     <Contact></Contact>
+    <FooterCust></FooterCust>
 </div>
 </template>
 
@@ -15,6 +16,7 @@ import Portfolio from '@/sections/Portfolio.vue';
 import About from '@/sections/About.vue';
 import Experiences from '@/sections/Experiences.vue';
 import Contact from '@/sections/Contact.vue';
+import FooterCust from '@/components/FooterCust.vue';
 
 import RRHeader from '@/components/RRHeader.vue';
 import Navigation from '@/components/Navigation.vue';
@@ -27,6 +29,7 @@ export default {
     About,
     Experiences,
     Contact,
+    FooterCust,
 
     RRHeader,
     Navigation

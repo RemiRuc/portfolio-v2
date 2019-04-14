@@ -3,6 +3,9 @@ import App from './App.vue'
 import i18n from './lang/lang.js';
 import router from './router'
 import VueScrollReveal from 'vue-scroll-reveal'
+import AOS from 'aos'
+import VueAnalytics from 'vue-analytics'
+import 'aos/dist/aos.css'
 
 Vue.config.productionTip = false
 
@@ -15,8 +18,16 @@ Vue.use(VueScrollReveal, {
   interval: 60
 });
 
+Vue.use(VueAnalytics, {
+  id: 'UA-126795198-2',
+  router
+});
+
 new Vue({
   router,
   i18n,
-  render: function (h) { return h(App) }
+  render: function (h) { return h(App) },
+  created () {
+    AOS.init()
+  },
 }).$mount('#app')

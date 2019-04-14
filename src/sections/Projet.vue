@@ -7,18 +7,19 @@
             <h3 class="section-subtitle">{{this.projet[$route.params.projet]['subname']}}</h3>
         </div>
         <div class="body">
-          <img v-scroll-reveal.reset class="mockup " :src="'/img/projet/mockup/'+this.projet[$route.params.projet]['img']+'.png'">
-          <h3 v-scroll-reveal.reset >Présentation :</h3>
-          <p v-scroll-reveal.reset class="para-presentation">{{this.projet[$route.params.projet]['presentation']}}</p>
-          <h3 v-scroll-reveal.reset>Outils utilisés :</h3>
-          <div v-scroll-reveal.reset v-for="outil in this.projet[$route.params.projet]['outils']" class="link " :href="outil.link" target="_blank"><img :src="'/img/techno/'+outil.img+'.png'"><p>{{outil.name}}</p></div>
+          <img v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}" class="mockup " :src="'/img/projet/mockup/'+this.projet[$route.params.projet]['img']+'.png'">
+          <h3 v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}" >Présentation :</h3>
+          <p v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}" class="para-presentation">{{this.projet[$route.params.projet]['presentation']}}</p>
+          <h3 v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}">Outils utilisés :</h3>
+          <div v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}" v-for="outil in this.projet[$route.params.projet]['outils']" class="link " :href="outil.link" target="_blank"><img :src="'/img/techno/'+outil.img+'.png'"><p>{{outil.name}}</p></div>
 
-          <h3 v-scroll-reveal.reset>Collaborateurs :</h3>
-          <IdPerson v-scroll-reveal.reset  v-for="col in this.projet[$route.params.projet]['col']" :name="col.name" :poste="col.post" :img="col.img" :link="col.link"></IdPerson>
+          <h3 v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}">Collaborateurs :</h3>
+          <IdPerson v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}"  v-for="col in this.projet[$route.params.projet]['col']" :name="col.name" :poste="col.post" :img="col.img" :link="col.link"></IdPerson>
 
-          <h3 v-scroll-reveal.reset>Liens du projet :</h3>
-          <a v-scroll-reveal.reset v-for="link in this.projet[$route.params.projet]['links']" class="link " :href="link.link" target="_blank"><i :class="link.icon"></i><p>{{link.label}}</p></a>
+          <h3 v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}">Liens du projet :</h3>
+          <a v-scroll-reveal = "{viewOffset: {top: -300,right: 0,bottom: 0,left: 0}}" v-for="link in this.projet[$route.params.projet]['links']" class="link " :href="link.link" target="_blank"><i :class="link.icon"></i><p>{{link.label}}</p></a>
 
+          <Portfolio></Portfolio>
         </div>
 
   </section>
@@ -28,10 +29,14 @@
 <script lang="js">
 import IdPerson from "@/components/IdPerson.vue";
   import dataProjet from "@/dataProject.js";
+  import Portfolio from '@/sections/Portfolio.vue';
+  import FooterCust from '@/components/FooterCust.vue';
   export default  {
     name: 'projet',
     components: {
-      IdPerson
+      IdPerson,
+      Portfolio,
+      FooterCust
     },
     props: [],
     mounted() {

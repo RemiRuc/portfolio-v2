@@ -46,6 +46,7 @@
       margin-right: 8px;
     }
   }
+    
 
   .navigation.landing{
     .home-route{
@@ -69,6 +70,28 @@
       }
     }
   }
+
+    li{
+        &:hover a:before{
+          width: 110%;
+        }
+        a{
+          position: relative;
+          
+
+          &:before{
+            content: '';
+            position: absolute;
+            transition: all 0.3s ease;
+            width: 0%;
+            bottom: -10px;
+            top: -10px;
+            left: -5px;
+            /* right: -10px; */
+            z-index: -1;
+          }
+        }
+      }
 
   .navigation.header{
     width: 100%;
@@ -101,7 +124,7 @@
       }
 
     .router-link-active{
-      background-color: white;
+      //background-color: white;
     }
 
      @media screen and (min-width: 750px){

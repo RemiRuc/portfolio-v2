@@ -27,13 +27,13 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developpeur",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
                 {
                     name: "Léna Clavier",
-                    post: "Developpeur",
+                    post: "💻 Developpeur",
                     img: "lenaclavier",
                     link: "https://lena-clavier.com/"
                 }
@@ -80,18 +80,13 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
             ],
 
             links: [
-                {
-                    label: "Lien vers le repo GitHub",
-                    icon: "fab fa-github",
-                    link: "https://github.com/RemiRuc/to-watch-list"
-                },
                 {
                     label: "Lien vers la beta",
                     icon: "fas fa-asterisk",
@@ -128,7 +123,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -138,12 +133,12 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le repo GitHub",
                     icon: "fab fa-github",
-                    link: "https://github.com/RemiRuc/to-watch-list"
+                    link: "https://github.com/RemiRuc/Audio-Viz-Ima-made-nando-mo"
                 },
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://remi-rucojevic.com/fr/portfolio/imaMadeNandoMo"
+                    link: "http://projects.remi-rucojevic.com/imaMadeNandoMo"
                 },
             ]
         },
@@ -171,7 +166,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -181,12 +176,12 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le repo GitHub",
                     icon: "fab fa-github",
-                    link: "https://github.com/RemiRuc/to-watch-list"
+                    link: "https://github.com/RemiRuc/Audio-viz-Chassing-ghost"
                 },
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://remi-rucojevic.com/fr/portfolio/chanssingGhost"
+                    link: "http://projects.remi-rucojevic.com/chassingGhost"
                 },
             ]
         },
@@ -214,13 +209,13 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
                 {
                     name: "Jérémy Lesdema",
-                    post: "Designer",
+                    post: "🎨 Designer",
                     img: "jeremylesdema",
                     link: "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-lesdema-08873b87/"
                 },
@@ -235,7 +230,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://remi-rucojevic.com/fr/portfolio/chanssingGhost"
+                    link: "http://projects.remi-rucojevic.com/co2planete"
                 },
             ]
         },
@@ -267,7 +262,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer / Designer",
+                    post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -277,12 +272,12 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le repo GitHub",
                     icon: "fab fa-github",
-                    link: "https://github.com/RemiRuc/to-watch-list"
+                    link: "https://github.com/RemiRuc/Penalty-Foof"
                 },
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://remi-rucojevic.com/fr/portfolio/chanssingGhost"
+                    link: "/penaltyFoof"
                 },
             ]
         },
@@ -310,7 +305,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer / Designer",
+                    post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -349,7 +344,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer / Designer",
+                    post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -396,7 +391,7 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developer / Designer",
+                    post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -406,7 +401,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le repo GitHub",
                     icon: "fab fa-github",
-                    link: "https://github.com/RemiRuc/Japan-Ni"
+                    link: "https://github.com/RemiRuc/KitHub"
                 },
                 {
                     label: "Lien vers le site",
@@ -435,25 +430,25 @@ const dataProject = new Vue({
             col: [
                 {
                     name: "Mathieu Grondin",
-                    post: "Designer",
+                    post: "🎨 Designer",
                     img: "mathieugrondin",
                     link: "https://www.linkedin.com/in/mathieu-grondin-479969120/"
                 },
                 {
                     name: "Louis Lagache",
-                    post: "Developpeur",
+                    post: "💻 Developpeur",
                     img: "louislagache",
                     link: "https://www.linkedin.com/in/louis-lagache-a70ab210a/"
                 },
                 {
                     name: "Céline Le Provost",
-                    post: "Designer",
+                    post: "🎨 Designer",
                     img: "celineleprovost",
                     link: "https://www.linkedin.com/in/c%C3%A9line-le-provost-b3b18a148/"
                 },
                 {
                     name: "Rémi Rucojevic",
-                    post: "Developpeur",
+                    post: "💻 Developpeur",
                     img: "remirucojevic",
                     link: "https://remi-rucojevic.com"
                 },
@@ -468,7 +463,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://remi-rucojevic.com/fr/portfolio/miou/"
+                    link: "http://projects.remi-rucojevic.com/miou"
                 },
             ]
         }

@@ -3,15 +3,15 @@
   <section class="landing-page">
     <div class="blue-cache"></div>
     <div class="center">
-      <div class="landing-page-reveal" v-scroll-reveal.reset><h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1></div>
-      <div class="landing-page-reveal" v-scroll-reveal.reset = "{delay: 60}"><h2>{{ $t("post") }}</h2></div>
+      <div class="landing-page-reveal" v-scroll-reveal><h1>{{ $t("first-name") }}<span>{{ $t("family-name") }}</span></h1></div>
+      <div class="landing-page-reveal" v-scroll-reveal = "{delay: 60}"><h2 v-html="$t('post')"></h2></div>
 
-      <div v-scroll-reveal.reset = "{delay: 120}" class="from">
+      <div v-scroll-reveal = "{delay: 120}" class="from">
         <div class="landing-page-reveal"><a href="#"><img class="white" src="/img/exp/ibm.png"></a></div>
         <div class="landing-page-reveal"><a href="#"><img class="white" src="/img/exp/gobelins.png"></a></div>
       </div>
 
-      <Navigation class="landing-page-reveal" section="landing" v-scroll-reveal.reset = "{delay: 180}"></Navigation>
+      <Navigation class="landing-page-reveal nav" section="landing" v-scroll-reveal = "{delay: 180, viewOffset: {top: 0,right: 0,bottom: -60,left: 0}}"></Navigation>
     </div>
   </section>
 
@@ -113,6 +113,7 @@
         height: 100px;
       }
     }
+
 
       @media screen and (min-width: 1000px) {
       h1{

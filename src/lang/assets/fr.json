@@ -1,7 +1,8 @@
 {
     "first-name": "Rémi",
     "family-name": "Rucojevic",
-    "post": "Développeur full-stack",
+    "post": "Développeur full-stack<br>Web designer",
+    "local": "Noisiel, France",
     
     "portfolio": "Portfolio",
     "about": "À propos",
@@ -13,5 +14,84 @@
 
     "CreativeSound": "Creative Sound experience",
     "webApplication": "Application web",
-    "penaltyGame": "Jeu de penalty"
+    "penaltyGame": "Jeu de penalty",
+
+    "tools" : "Outils",
+    "principales-comp" : "Compétences principales",
+    "GDP" : "GESTION DE PROJET",
+    "GRAPH" : "GRAPHISME",
+    "LANG" : "LANGUES",
+    "also" : "Mais aussi",
+
+    "front-1" : "Concevoir un site web",
+    "front-2" : "Développer son aspect visuel",
+    "front-3" : "Prendre en compte et sublimer l'expérience utilisateur",
+    "front-4" : "Utiliser un framework front de modèle MVC (Vue.js, Angular...)",
+
+    "back-1" : "Heberger un site web",
+    "back-2" : "Développer ses fonctionnalités",
+    "back-3" : "Gérer une base de données",
+    "back-4" : "Utiliser un framework back de modèle MVC (Symfony, Laravel...)",
+
+    "gdp-1" : "Utiliser les méthodes agiles",
+    "gdp-2" : "Coordonner les méthodes de travails entre développeurs en utilisant des conventions communes",
+    "gdp-3" : "Ecrire une documentation et commenter un code afin de faciliter le travail en équipe",
+
+    "english" : "Anglais",
+    "serbian" : "Serbo - croate",
+    "japanease" : "Japonais",
+
+    "pro" : {
+        "ibm" :{
+            "name" : "IBM",
+            "poste" : "Apprenti développeur front",
+            "date" : "Depuis octobre 2018",
+            "description" :"Travail au sein d'une équipe agile pour le client Royal Canin : Développeur front pour une application web déstinée aux vétérinaires réalisée sous Angular 6."
+        },
+        "toosla" :{
+            "name" : "TOOSLA",
+            "poste" : "Stagiaire développeur full-stack",
+            "date" : "Avril 2018 - Juin 2018",
+            "description" :"Interviens en tant que stagiaire sur la gestion du backoffice, l'API et le site internet. Utilisation des frameworks Laravel et Angular.JS sous les environnements Docker et Linux."
+        },
+        "caq" :{
+            "name" : "CAQ.fr",
+            "poste" : "Rédacteur web et assistant webmaster",
+            "date" : "Décembre 2017 - Janvier 2018",
+            "description" :"Ecris des articles dans une logique SEO et assiste le gérant du site sur certaines tâches de maintenance (Gestion de Wordpress, création de sous-domaines...)"
+        },
+        "myParentsMind" :{
+            "name" : "My Parents' Mind",
+            "poste" : "Développeur web, ingénieur son et manager de l'équipe artistique",
+            "date" : "Mars 2017 - Mars 2018",
+            "description" :"Interviens sur la création du <a href='https://myparentsmind.surge.sh/' target='_blank'>site web promotionnel</a> et la composition musicale du court métrage d'animation \"Ce que disent mes parents : My parents' mind\". Manage l'équipe artistique composée de 4 personnes."
+        },
+        "laforet" :{
+            "name" : "Stage au Japon",
+            "poste" : "",
+            "date" : "Juillet-Août 2017",
+            "description" :"<ul><li>Juillet : Stage linguistique à TOHO International College (Tokyo)</li><li>Août : Stagiaire «employé polyvalent» au Resort-Hôtel Laforet (Hakuba)</li></ul>"
+        }
+    },
+
+    "edu" : {
+        "gobelins" :{
+            "name" : "Gobelins, l'école de l'image",
+            "poste" : "",
+            "date" : "Depuis septembre 2018",
+            "description" :"<a href='https://www.gobelins.fr/formation/bddi-bachelor-developpeur-interactif-cycle-1-en-1' target='_blank'>Bachelor Designer & Développeur Interactif :</a>Formation en alternance dans le domaine du développement web.<br>Option : Développement"
+        },
+        "upem" :{
+            "name" : "Université Paris-Est Marne-La-Vallée - IUT de Meaux (77)",
+            "poste" : "",
+            "date" : "2016-2018",
+            "description" :"DUT MMI (Métiers du multimédia et de l’internet) :<br>Apprentissage des compétences liées au multimédia : Programmation web, programmation androïd, infographie, plan de communication, sécurité des réseaux, montage vidéo...<br>Spécialité : Développement"
+        },
+        "cassin" :{
+            "name" : "Lycée René Cassin à Noisiel (77)",
+            "poste" : "",
+            "date" : "2014-2016",
+            "description" :"Baccalauréat S (Scientifique)<br>Option : SI (Science de l’ingénieur)<br>Spécialité : ISN (Informatique et sciences du numérique)"
+        }
+    }
 }

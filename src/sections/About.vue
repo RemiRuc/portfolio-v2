@@ -4,20 +4,20 @@
     <h2 class="section-title">{{$t("about")}}</h2>
 
     <div class="info">
-      <IdPerson v-scroll-reveal.reset name="Rémi Rucojevic" poste="Noisiel, France" img="remirucojevic"></IdPerson>
+      <IdPerson v-scroll-reveal.reset :name="$t('first-name') + ' ' + $t('family-name')" :poste="$t('local')" img="remirucojevic"></IdPerson>
       <p v-scroll-reveal.reset>Lorem Khaled Ipsum is a major key to success. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. How’s business? Boomin. Bless up. The key to success is to keep your head above the water, never give up. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. Cloth talk.</p>
     </div>
-    <h3>Compétences principales :</h3>
+    <h3>{{$t("principales-comp")}} :</h3>
     <div class="comp-container">
       <div v-scroll-reveal.reset>
         <h4>FRONT-END :</h4>
         <ul>
-          <li>- Concevoir un site web</li>
-          <li>- Développer son aspect visuel</li>
-          <li>- Prendre en compte et sublimer l'expérience utilisateur</li>
-          <li>- Utiliser un framework back de modèle MVC (Vue.js, Angular...)</li>
+          <li>- {{$t("front-1")}}</li>
+          <li>- {{$t("front-2")}}</li>
+          <li>- {{$t("front-3")}}</li>
+          <li>- {{$t("front-4")}}</li>
         </ul>
-        <h5>Outils :</h5>
+        <h5>{{$t("tools")}} :</h5>
         <div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/html.png"><p>HTML / CSS</p></div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/javascript.png"><p>Javascript</p></div>
@@ -28,12 +28,12 @@
       <div v-scroll-reveal.reset>
         <h4>BACK-END :</h4>
         <ul>
-          <li>- Heberger un site web</li>
-          <li>- Développer ses fonctionnalités</li>
-          <li>- Gérer une base de données</li>
-          <li>- Utiliser un framework front de modèle MVC (Symfony, Laravel...)</li>
+          <li>- {{$t("back-1")}}</li>
+          <li>- {{$t("back-2")}}</li>
+          <li>- {{$t("back-3")}}</li>
+          <li>- {{$t("back-4")}}</li>
         </ul>
-        <h5>Outils :</h5>
+        <h5>{{$t("tools")}} :</h5>
         <div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/php.png"><p>PHP</p></div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/mysql.png"><p>MySQL</p></div>
@@ -42,13 +42,13 @@
         </div>
       </div>
       <div v-scroll-reveal.reset>
-        <h4>GESTION DE PROJET :</h4>
+        <h4>{{$t("GDP")}} :</h4>
         <ul>
-          <li>- Utiliser les méthodes agiles</li>
-          <li>- Coordonner les méthodes de travails entre développeurs en utilisant des conventions communes</li>
-          <li>- Ecrire une documentation et commenter un code afin de faciliter le travail en équipe</li>
+          <li>- {{$t("gdp-1")}}</li>
+          <li>- {{$t("gdp-2")}}</li>
+          <li>- {{$t("gdp-3")}}</li>
         </ul>
-        <h5>Outils :</h5>
+        <h5>{{$t("tools")}} :</h5>
         <div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/git.png"><p>Git</p></div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/trello.png"><p>Trello</p></div>
@@ -56,15 +56,15 @@
         </div>
       </div>
     </div>
-    <h3>Mais aussi :</h3>
+    <h3>{{$t("also")}} :</h3>
         <div class="comp-container plus">
       <div v-scroll-reveal.reset>
-        <h4>GRAPHISME :</h4>
+        <h4>{{$t("GRAPH")}} :</h4>
         <ul>
           <li>- Créer une maquette de site</li>
           <li>- Concevoir une charte graphique</li>
         </ul>
-        <h5>Outils :</h5>
+        <h5>{{$t("tools")}} :</h5>
         <div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/photoshop.png"><p>Photoshop</p></div>
           <div v-scroll-reveal.reset class="link"><img src="/img/techno/illustrator.png"><p>Illustrator</p></div>
@@ -72,13 +72,13 @@
         </div>
       </div>
       <div v-scroll-reveal.reset>
-        <h4>LANGUES :</h4>
+        <h4>{{$t("LANG")}} :</h4>
         <ul>
         </ul>
         <div class="languages">
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/uk.png"><p>Anglais</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div class="valide">B1</div><div class="valide">B2</div><div>C1</div><div>C2</div></div></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/serbia.png"><p>Serbo - Croate</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/japan.png"><p>Japonais</p><div class="lang"><div class="valide">A1</div><div>A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal.reset class="link"><img src="/img/techno/uk.png"><p>{{$t("english")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div class="valide">B1</div><div class="valide">B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal.reset class="link"><img src="/img/techno/serbia.png"><p>{{$t("serbian")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal.reset class="link"><img src="/img/techno/japan.png"><p>{{$t("japanease")}}</p><div class="lang"><div class="valide">A1</div><div>A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
         </div>
       </div>
     </div>
@@ -120,6 +120,8 @@ import IdPerson from "@/components/IdPerson.vue";
       align-items: center;
       flex-wrap: wrap;
 
+      margin-bottom: 100px;
+
       >p{
         max-width: 800px;
         width: 50%;
@@ -140,8 +142,9 @@ import IdPerson from "@/components/IdPerson.vue";
     .comp-container{
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       flex-wrap: wrap;
+      margin: 100px 0px;
       >div{
         margin: 0px 20px;
         flex: 1 0 334px;
@@ -166,26 +169,26 @@ import IdPerson from "@/components/IdPerson.vue";
     }
 
     .plus{
-      font-size: 0.8em;
-
-      img{
-        width: 60px;
-      }
+      font-size: 0.9em;
     }
 
   }
 
       .link{
-        display: inline-block;
+        display: flex;
         position: relative;
         margin: 20px;
 
-        font-size: 1.3em;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 1em;
 
         transition: all 0.3s;
 
         .lang{
           margin-top: 10px;
+          margin-left: 10px;
           >div{
             display: inline-block;
             text-align: center;
@@ -198,15 +201,16 @@ import IdPerson from "@/components/IdPerson.vue";
             font-size: 0.8em;
 
             border-radius: 50%;
-            margin: 5px;
+            margin: 2px;
 
           }
         }
 
         img{
-          width: 80px;
+          width: 24px;
 
           margin-bottom: 10px;
+          margin-right: 10px;
         }
 
         p{
