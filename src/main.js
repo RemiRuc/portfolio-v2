@@ -14,12 +14,12 @@ Vue.use(VueScrollReveal, {
   duration: 1000,
   distance: '100px',
   origin: 'left',
-  reset: true,
+  reset: false,
   interval: 60
 });
 
 Vue.use(VueAnalytics, {
-  id: 'UA-126795198-2',
+  id: 'UA-126795198-1',
   router
 });
 

@@ -21,6 +21,7 @@ export default {
     Background
   },
   mounted: () => {
+    console.log = function(){}
     let newMousePosition = [0, 0]
     document.addEventListener("mousemove", (event)=>{
       newMousePosition[0] = event.clientY -21.5 + "px"

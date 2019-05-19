@@ -55,8 +55,6 @@ export default {
         actual += arraySize[i]
         change[i] = actual
       }
-  
-      console.log(change)
     }
 
     document.addEventListener("scroll", () => {
@@ -118,7 +116,7 @@ export default {
     })
   },
   updated: () => {
-    console.log("updated")
+    
 
   }
 }

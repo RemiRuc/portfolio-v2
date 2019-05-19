@@ -41,7 +41,7 @@ export default new Router({
       component: Aboute,
       beforeEnter: (to, from, next) => {
         const lang = to.params.lang
-        if (!['fr','jp', 'sr', 'en'].includes(lang)) return next(to.params.lang)
+        if (!['fr'].includes(lang)) return next(i18n.locale)
         if (i18n.locale === lang) return next()
         let msg;
         switch (to.params.lang) {
@@ -82,7 +82,7 @@ export default new Router({
             }
           },
         },
-        {
+        /*{
           name: 'blog',
           path: 'blog/:blog',
           meta: {
@@ -100,7 +100,7 @@ export default new Router({
               next({name: '404'})
             }
           },
-        },
+        },*/
         {
           name: '404',
           path: 'not-found',

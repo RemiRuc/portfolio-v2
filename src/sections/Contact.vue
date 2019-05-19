@@ -2,13 +2,13 @@
 
   <section class="contact" id="contact">
     <h2 class="section-title">{{$t("contact")}}</h2>
-    <p v-scroll-reveal.reset>Besoin d'un site ? N'hésitez pas à me contacter sur les réseaux sociaux ou par mail pour me parler de votre projet et demander votre devis gratuit !<br>Une question ? Envie de discuter, de prendre un café ? Pareil, utilisez les liens ci-dessous et prenons contact ensemble !</p>
+    <p v-scroll-reveal>Besoin d'un site ? N'hésitez pas à me contacter sur les réseaux sociaux ou par mail pour me parler de votre projet et demander votre devis gratuit !<br>Une question ? Envie de discuter, de prendre un café ? Pareil, utilisez les liens ci-dessous et prenons contact ensemble !</p>
     <div class="contact-links">
-      <div v-scroll-reveal.reset = "{delay: 60}" class="contact-reveal"><a href="https://twitter.com/RemiRucojevic" target="_blank"><i class="fab fa-twitter"></i><p>@RemiRucojevic</p></a></div>
-      <div v-scroll-reveal.reset = "{delay: 120}" class="contact-reveal"><a href="https://www.linkedin.com/in/r%C3%A9mi-rucojevic/" target="_blank"><i class="fab fa-linkedin"></i><p>Rémi Rucojevic</p></a></div>
-      <div v-scroll-reveal.reset = "{delay: 180}" class="contact-reveal"><a href="https://github.com/RemiRuc" target="_blank"><i class="fab fa-github"></i><p>RemiRuc</p></a></div>
-      <div v-scroll-reveal.reset = "{delay: 240}" class="contact-reveal"><a href="https://codepen.io/RemiRuc/" target="_blank"><i class="fab fa-codepen"></i><p>RemiRuc</p></a></div>
-      <div v-scroll-reveal.reset = "{delay: 300}" data-clipboard-text="remi.rucojevic@gmail.com" class="contact-reveal mail"><a><i class="fas fa-at"></i><p>remi.rucojevic@gmail.com</p></a></div>
+      <div v-scroll-reveal = "{delay: 60}" class="contact-reveal"><a href="https://twitter.com/RemiRuc" target="_blank"><i class="fab fa-twitter"></i><p>@RemiRuc</p></a></div>
+      <div v-scroll-reveal = "{delay: 120}" class="contact-reveal"><a href="https://www.linkedin.com/in/r%C3%A9mi-rucojevic/" target="_blank"><i class="fab fa-linkedin"></i><p>Rémi Rucojevic</p></a></div>
+      <div v-scroll-reveal = "{delay: 180}" class="contact-reveal"><a href="https://github.com/RemiRuc" target="_blank"><i class="fab fa-github"></i><p>RemiRuc</p></a></div>
+      <div v-scroll-reveal = "{delay: 240}" class="contact-reveal"><a href="https://codepen.io/RemiRuc/" target="_blank"><i class="fab fa-codepen"></i><p>RemiRuc</p></a></div>
+      <div v-scroll-reveal = "{delay: 300}" data-clipboard-text="remi.rucojevic@gmail.com" class="contact-reveal mail"><a><i class="fas fa-at"></i><p>remi.rucojevic@gmail.com</p></a></div>
     </div>
     <p class="toast">remi.rucojevic@gmail.com copié dans le presse-papier</p>
   </section>

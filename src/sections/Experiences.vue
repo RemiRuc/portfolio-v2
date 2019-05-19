@@ -5,17 +5,17 @@
     <div class="timeline-container">
       <div class="timeline">
         <h3>Professionnelle :</h3>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.ibm.name")' entrepriseImg="ibm" :poste='$t("pro.ibm.poste")' :date='$t("pro.ibm.date")' :description='$t("pro.ibm.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.toosla.name")' entrepriseImg="toosla" :poste='$t("pro.toosla.poste")' :date='$t("pro.toosla.date")' :description='$t("pro.toosla.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.caq.name")' entrepriseImg="caq" :poste='$t("pro.caq.poste")' :date='$t("pro.caq.date")' :description='$t("pro.caq.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.myParentsMind.name")' entrepriseImg="myParentsMind" :poste='$t("pro.myParentsMind.poste")' :date='$t("pro.myParentsMind.date")' :description='$t("pro.myParentsMind.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("pro.laforet.name")' entrepriseImg="laforet" :poste='$t("pro.laforet.poste")' :date='$t("pro.laforet.date")' :description='$t("pro.laforet.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.ibm.name")' entrepriseImg="ibm" :poste='$t("pro.ibm.poste")' :date='$t("pro.ibm.date")' :description='$t("pro.ibm.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.toosla.name")' entrepriseImg="toosla" :poste='$t("pro.toosla.poste")' :date='$t("pro.toosla.date")' :description='$t("pro.toosla.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.caq.name")' entrepriseImg="caq" :poste='$t("pro.caq.poste")' :date='$t("pro.caq.date")' :description='$t("pro.caq.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.myParentsMind.name")' entrepriseImg="myParentsMind" :poste='$t("pro.myParentsMind.poste")' :date='$t("pro.myParentsMind.date")' :description='$t("pro.myParentsMind.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.laforet.name")' entrepriseImg="laforet" :poste='$t("pro.laforet.poste")' :date='$t("pro.laforet.date")' :description='$t("pro.laforet.description")'></TimelineItem>
       </div>
       <div class="timeline">
         <h3>Scolaire :</h3>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.gobelins.name")' entrepriseImg="gobelins" :poste='$t("edu.gobelins.poste")' :date='$t("edu.gobelins.date")' :description='$t("edu.gobelins.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.upem.name")' entrepriseImg="upem" :poste='$t("edu.upem.poste")' :date='$t("edu.upem.date")' :description='$t("edu.upem.description")'></TimelineItem>
-        <TimelineItem v-scroll-reveal.reset :entreprise='$t("edu.cassin.name")' entrepriseImg="cassin" :poste='$t("edu.cassin.poste")' :date='$t("edu.cassin.date")' :description='$t("edu.cassin.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("edu.gobelins.name")' entrepriseImg="gobelins" :poste='$t("edu.gobelins.poste")' :date='$t("edu.gobelins.date")' :description='$t("edu.gobelins.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("edu.upem.name")' entrepriseImg="upem" :poste='$t("edu.upem.poste")' :date='$t("edu.upem.date")' :description='$t("edu.upem.description")'></TimelineItem>
+        <TimelineItem v-scroll-reveal :entreprise='$t("edu.cassin.name")' entrepriseImg="cassin" :poste='$t("edu.cassin.poste")' :date='$t("edu.cassin.date")' :description='$t("edu.cassin.description")'></TimelineItem>
       </div>
     </div>
   </section>

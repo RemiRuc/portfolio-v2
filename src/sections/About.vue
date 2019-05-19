@@ -4,12 +4,12 @@
     <h2 class="section-title">{{$t("about")}}</h2>
 
     <div class="info">
-      <IdPerson v-scroll-reveal.reset :name="$t('first-name') + ' ' + $t('family-name')" :poste="$t('local')" img="remirucojevic"></IdPerson>
-      <p v-scroll-reveal.reset>Lorem Khaled Ipsum is a major key to success. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. How’s business? Boomin. Bless up. The key to success is to keep your head above the water, never give up. Let me be clear, you have to make it through the jungle to make it to paradise, that’s the key, Lion! You see that bamboo behind me though, you see that bamboo? Ain’t nothin’ like bamboo. Bless up. Cloth talk.</p>
+      <IdPerson v-scroll-reveal :name="$t('first-name') + ' ' + $t('family-name')" :poste="$t('local')" img="remirucojevic"></IdPerson>
+      <p v-scroll-reveal>Développeur web de métier et de passion, j'aime expérimenter avec tout ce que le web a à nous offrir. Très curieux dans la vie de tout les jours, la programmation est mon bac-à-sable rêvé où je peux tester absolument tout ce que je vois ou que j'imagine : Application web, application mobile, webdesign, 3D, motion design... Mon but est de donner une nouvelle dimension au web et aux applications mobiles en y ajoutant ce qui tient ce qui tient chaque personne en haleine devant un site : de l'interactivité.</p>
     </div>
     <h3>{{$t("principales-comp")}} :</h3>
     <div class="comp-container">
-      <div v-scroll-reveal.reset>
+      <div v-scroll-reveal>
         <h4>FRONT-END :</h4>
         <ul>
           <li>- {{$t("front-1")}}</li>
@@ -19,13 +19,13 @@
         </ul>
         <h5>{{$t("tools")}} :</h5>
         <div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/html.png"><p>HTML / CSS</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/javascript.png"><p>Javascript</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/three.png"><p>Three.js</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/vuejs.png"><p>Vue.js</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/html.png"><p>HTML / CSS</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/javascript.png"><p>Javascript</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/three.png"><p>Three.js</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/vuejs.png"><p>Vue.js</p></div>
         </div>
       </div>
-      <div v-scroll-reveal.reset>
+      <div v-scroll-reveal>
         <h4>BACK-END :</h4>
         <ul>
           <li>- {{$t("back-1")}}</li>
@@ -35,13 +35,13 @@
         </ul>
         <h5>{{$t("tools")}} :</h5>
         <div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/php.png"><p>PHP</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/mysql.png"><p>MySQL</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/ajax.png"><p>Ajax</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/symfony.png"><p>Symfony</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/php.png"><p>PHP</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/mysql.png"><p>MySQL</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/ajax.png"><p>Ajax</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/symfony.png"><p>Symfony</p></div>
         </div>
       </div>
-      <div v-scroll-reveal.reset>
+      <div v-scroll-reveal>
         <h4>{{$t("GDP")}} :</h4>
         <ul>
           <li>- {{$t("gdp-1")}}</li>
@@ -50,15 +50,15 @@
         </ul>
         <h5>{{$t("tools")}} :</h5>
         <div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/git.png"><p>Git</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/trello.png"><p>Trello</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/drive.png"><p>Drive</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/git.png"><p>Git</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/trello.png"><p>Trello</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/drive.png"><p>Drive</p></div>
         </div>
       </div>
     </div>
     <h3>{{$t("also")}} :</h3>
         <div class="comp-container plus">
-      <div v-scroll-reveal.reset>
+      <div v-scroll-reveal>
         <h4>{{$t("GRAPH")}} :</h4>
         <ul>
           <li>- Créer une maquette de site</li>
@@ -66,19 +66,19 @@
         </ul>
         <h5>{{$t("tools")}} :</h5>
         <div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/photoshop.png"><p>Photoshop</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/illustrator.png"><p>Illustrator</p></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/indesign.png"><p>InDesign</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/photoshop.png"><p>Photoshop</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/illustrator.png"><p>Illustrator</p></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/indesign.png"><p>InDesign</p></div>
         </div>
       </div>
-      <div v-scroll-reveal.reset>
+      <div v-scroll-reveal>
         <h4>{{$t("LANG")}} :</h4>
         <ul>
         </ul>
         <div class="languages">
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/uk.png"><p>{{$t("english")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div class="valide">B1</div><div class="valide">B2</div><div>C1</div><div>C2</div></div></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/serbia.png"><p>{{$t("serbian")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
-          <div v-scroll-reveal.reset class="link"><img src="/img/techno/japan.png"><p>{{$t("japanease")}}</p><div class="lang"><div class="valide">A1</div><div>A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/uk.png"><p>{{$t("english")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div class="valide">B1</div><div class="valide">B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/serbia.png"><p>{{$t("serbian")}}</p><div class="lang"><div class="valide">A1</div><div class="valide">A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
+          <div v-scroll-reveal class="link"><img src="/img/techno/japan.png"><p>{{$t("japanease")}}</p><div class="lang"><div class="valide">A1</div><div>A2</div><div>B1</div><div>B2</div><div>C1</div><div>C2</div></div></div>
         </div>
       </div>
     </div>

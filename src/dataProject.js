@@ -466,6 +466,66 @@ const dataProject = new Vue({
                     link: "http://projects.remi-rucojevic.com/miou"
                 },
             ]
+        },
+        otium: {
+            name: "OTIUM",
+            subname: "APPLICATION WEB / MOBILE",
+            img: "otium",
+            presentation: "Projet Gobelins : ",
+
+            outils: [
+                {
+                    name: "HTML/CSS",
+                    img: "html"
+                },
+                {
+                    name: "Javascript",
+                    img: "javascript"
+                },
+                {
+                    name: "Socket.io",
+                    img: "socketio"
+                },
+                {
+                    name: "Three.js",
+                    img: "three"
+                },
+            ],
+
+            col: [
+                {
+                    name: "Nadia Essoubai",
+                    post: "💻 Developpeur",
+                    img: "nadiassoubai",
+                    link: "https://nadia-essoubai.fr/"
+                },
+                {
+                    name: "Julie Marting",
+                    post: "🎨 Designer",
+                    img: "juliemarting",
+                    link: "https://www.linkedin.com/in/julie-marting-1b231b101/"
+                },
+                {
+                    name: "Rémi Rucojevic",
+                    post: "💻 Developpeur",
+                    img: "remirucojevic",
+                    link: "https://remi-rucojevic.com"
+                },
+                {
+                    name: "Julien Warin",
+                    post: "🎨 Designer",
+                    img: "julienwarin",
+                    link: "https://www.linkedin.com/in/jlnwrn/"
+                },
+            ],
+
+            links: [
+                {
+                    label: "Lien vers le repo GitHub",
+                    icon: "fab fa-github",
+                    link: "https://github.com/team-otium/bddi_otium"
+                },
+            ]
         }
     }
   }

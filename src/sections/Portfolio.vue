@@ -4,25 +4,25 @@
     <h2 class="section-title">{{$t("portfolio")}}</h2>
     <div class="portfolio-container">
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal.reset title='To Watch List' :subtitle='$t("webApplication")' link="toWatchList"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Azbooka' :subtitle='$t("webApplication")' link="azbooka"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='To Watch List' :subtitle='$t("webApplication")' link="toWatchList"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Azbooka' :subtitle='$t("webApplication")' link="azbooka"></PortfolioBlock>
       </div>
 
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal.reset :title='$t("IMNM")' :subtitle='$t("CreativeSound")' link="imaMadeNandoMo"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Chassing ghost' :subtitle='$t("CreativeSound")' link="chassingGhost"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Co2 planete' subtitle='Dataviz 3d' link="co2planete"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal :title='$t("IMNM")' :subtitle='$t("CreativeSound")' link="imaMadeNandoMo"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Chassing ghost' :subtitle='$t("CreativeSound")' link="chassingGhost"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Co2 planete' subtitle='Dataviz 3d' link="co2planete"></PortfolioBlock>
       </div>
 
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal.reset title='Yamanote Line' :subtitle='$t("webApplication")' link="yamanoteline"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Japan Ni' :subtitle='$t("webApplication")' link="japanni"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Yamanote Line' :subtitle='$t("webApplication")' link="yamanoteline"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Japan Ni' :subtitle='$t("webApplication")' link="japanni"></PortfolioBlock>
       </div>
 
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal.reset title='Kit Hub' :subtitle='$t("webApplication")' link="kithub"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Penaltyfoof' :subtitle='$t("penaltyGame")' link="penaltyfoof"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal.reset title='Miou, La fresque du passé' :subtitle='$t("webApplication")' link="miou"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Kit Hub' :subtitle='$t("webApplication")' link="kithub"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Penaltyfoof' :subtitle='$t("penaltyGame")' link="penaltyfoof"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Miou, La fresque du passé' :subtitle='$t("webApplication")' link="miou"></PortfolioBlock>
       </div>
 
 
