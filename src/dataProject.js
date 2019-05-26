@@ -29,7 +29,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
                 {
                     name: "Léna Clavier",
@@ -48,7 +48,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://towatchlist.remi-rucojevic.com/"
+                    link: "http://towatchlist.remiruc.com/"
                 }
             ]
         },
@@ -82,7 +82,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -90,12 +90,12 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers la beta",
                     icon: "fas fa-asterisk",
-                    link: "http://azbooka.remi-rucojevic.com/"
+                    link: "http://azbooka.remiruc.com/"
                 },
                 {
                     label: "Presentation de la version 2",
                     icon: "fas fa-asterisk",
-                    link: "http://azbooka-team.remi-rucojevic.com/"
+                    link: "http://azbooka-team.remiruc.com/"
                 }
             ]
         },
@@ -125,7 +125,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -138,7 +138,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://projects.remi-rucojevic.com/imaMadeNandoMo"
+                    link: "http://projects.remiruc.com/imaMadeNandoMo"
                 },
             ]
         },
@@ -168,7 +168,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -181,7 +181,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://projects.remi-rucojevic.com/chassingGhost"
+                    link: "http://projects.remiruc.com/chassingGhost"
                 },
             ]
         },
@@ -211,7 +211,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
                 {
                     name: "Jérémy Lesdema",
@@ -230,7 +230,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://projects.remi-rucojevic.com/co2planete"
+                    link: "http://projects.remiruc.com/co2planete"
                 },
             ]
         },
@@ -264,7 +264,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -307,7 +307,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -320,7 +320,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://japan-ni.remi-rucojevic.com/"
+                    link: "http://japan-ni.remiruc.com/"
                 },
             ]
         },
@@ -346,7 +346,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -359,7 +359,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "https://yamanote-line.remi-rucojevic.com/"
+                    link: "https://yamanote-line.remiruc.com/"
                 },
             ]
         },
@@ -393,7 +393,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur / 🎨 Designer",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -406,7 +406,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://kithub.remi-rucojevic.com/"
+                    link: "http://kithub.remiruc.com/"
                 },
             ]
         },
@@ -450,7 +450,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
             ],
 
@@ -463,7 +463,7 @@ const dataProject = new Vue({
                 {
                     label: "Lien vers le site",
                     icon: "fas fa-asterisk",
-                    link: "http://projects.remi-rucojevic.com/miou"
+                    link: "http://projects.remiruc.com/miou"
                 },
             ]
         },
@@ -509,7 +509,7 @@ const dataProject = new Vue({
                     name: "Rémi Rucojevic",
                     post: "💻 Developpeur",
                     img: "remirucojevic",
-                    link: "https://remi-rucojevic.com"
+                    link: "https://remiruc.com"
                 },
                 {
                     name: "Julien Warin",
