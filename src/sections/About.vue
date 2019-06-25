@@ -5,7 +5,7 @@
 
     <div class="info">
       <IdPerson v-scroll-reveal :name="$t('first-name') + ' ' + $t('family-name')" :poste="$t('local')" img="remirucojevic"></IdPerson>
-      <p v-scroll-reveal>Développeur web de métier et de passion, j'aime expérimenter avec tout ce que le web a à nous offrir. Très curieux dans la vie de tout les jours, la programmation est mon bac-à-sable rêvé où je peux tester absolument tout ce que je vois ou que j'imagine : Application web, application mobile, webdesign, 3D, motion design... Mon but est de donner une nouvelle dimension au web et aux applications mobiles en y ajoutant ce qui tient ce qui tient chaque personne en haleine devant un site : de l'interactivité.</p>
+      <p v-scroll-reveal>{{$t("resume")}}</p>
     </div>
     <h3>{{$t("principales-comp")}} :</h3>
     <div class="comp-container">

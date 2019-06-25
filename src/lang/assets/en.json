@@ -1,19 +1,107 @@
 {
     "first-name": "Rémi",
     "family-name": "Rucojevic",
-    "post": "Full-stack developer",
+    "post": "Full-stack developer<br>Web designer",
     "local": "Noisiel, France",
-
+    
     "portfolio": "Portfolio",
     "about": "About",
     "experience": "Experience",
     "contact": "Contact",
 
-
     
     "IMNM": "Ima Made Nando Mo",
 
     "CreativeSound": "Creative Sound experience",
-    "webApplication": "Application web",
-    "penaltyGame": "Jeu de penalty"
+    "webApplication": "Web application",
+    "penaltyGame": "Penalty game",
+
+    "resume": "Web developer of profession and passion, I like to experiment with everything the web has to offer. Very curious in everyday life, programming is my dream sandbox where I can test absolutely everything I see or imagine: Web application, mobile application, webdesign, 3D, motion design .. My goal is to give a new dimension to the web and mobile applications by adding what keeps each person in front of a site: interactivity.",
+
+    "tools" : "Tools",
+    "principales-comp" : "Main skills",
+    "GDP" : "GESTION DE PROJET",
+    "GRAPH" : "GRAPHISME",
+    "LANG" : "LANGUES",
+    "also" : "But also",
+
+    "front-1" : "Conceive a web site",
+    "front-2" : "Develop his visual aspect",
+    "front-3" : "Take care of user experience and improve it",
+    "front-4" : "Use a framework front with MVC model (Vue.js, Angular...)",
+
+    "back-1" : "Host a web site",
+    "back-2" : "Develop his features",
+    "back-3" : "Manage a Database",
+    "back-4" : "Use a framework back with MVC model (Symfony, Laravel...)",
+
+    "gdp-1" : "Use agile methods",
+    "gdp-2" : "Coordinate work methods between developers using common conventions",
+    "gdp-3" : "Write documentation and comment the code to facilitate teamwork",
+
+    "english" : "English",
+    "serbian" : "Serbo - croatian",
+    "japanease" : "Japanese",
+
+    "pro" : {
+        "ibm" :{
+            "name" : "IBM",
+            "poste" : "Apprentice front developer",
+            "date" : "October 2018 - June 2019",
+            "description" :"Working in an agile team for the client Royal Canin: Front-end developer for a web application for veterinarians under Angular 6."
+        },
+        "toosla" :{
+            "name" : "TOOSLA",
+            "poste" : "Trainee full-stack developer",
+            "date" : "April 2018 - June 2018",
+            "description" :"Intervene as trainee on the management of the back office, the API and the website. Using Laravel and Angular.JS frameworks under Docker and Linux environments."
+        },
+        "caq" :{
+            "name" : "CAQ.fr",
+            "poste" : "Web redactor and webmaster assistant",
+            "date" : "December 2017 - January 2018",
+            "description" :"Write articles in an SEO logic and assist the site owner on certain maintenance tasks (Wordpress management, creation of subdomains ...)"
+        },
+        "myParentsMind" :{
+            "name" : "My Parents' Mind",
+            "poste" : "Web developer, sound engineer and artistic team manager",
+            "date" : "Mars 2017 - Mars 2018",
+            "description" :"Intervenes on the creation of the <a href='https://myparentsmind.surge.sh/' target='_blank'>promotional website</a> and the musical composition of the animated short film \"Ce que disent mes parents : My parents' mind\". Manage the artistic team composed of 4 people."
+        },
+        "laforet" :{
+            "name" : "Internship in Japan",
+            "poste" : "",
+            "date" : "July-August 2017",
+            "description" :"<ul><li>July : Linguistic Internship at TOHO International College (Tokyo)</li><li>August : Trainee «employé polyvalent» at the Resort-Hôtel Laforet (Hakuba)</li></ul>"
+        }
+    },
+
+    "edu" : {
+        "gobelins" :{
+            "name" : "Gobelins, l'école de l'image",
+            "poste" : "",
+            "date" : "Since septembre 2018",
+            "description" :"<a href='https://www.gobelins.fr/formation/bddi-bachelor-developpeur-interactif-cycle-1-en-1' target='_blank'>Bachelor Designer & Développeur Interactif :</a>Training alternating in the field of web development.<br>Option : Web development"
+        },
+        "upem" :{
+            "name" : "Université Paris-Est Marne-La-Vallée - IUT de Meaux (77)",
+            "poste" : "",
+            "date" : "2016-2018",
+            "description" :"DUT MMI (Métiers du multimédia et de l’internet) :<br>Learning skills related to multimedia: Web programming, android programming, computer graphics, communication plan, network security, video editing ...<br>Speciality : Web development"
+        },
+        "cassin" :{
+            "name" : "Lycée René Cassin à Noisiel (77)",
+            "poste" : "",
+            "date" : "2014-2016",
+            "description" :"Baccalauréat S (Scientifique)<br>Option : SI (Science de l’ingénieur)<br>Speciality : ISN (Informatique et sciences du numérique)"
+        }
+    },
+    "contact-text":"Need a site? Do not hesitate to contact me on social networks or by email to tell me about your project and ask for your free quote!<br>A question ? Want to chat, have a coffee? Same, use the links below and get in touch together!",
+    "copy": "copied to the clipboard",
+    "cv": "Download my CV",
+
+    "presentation": "About",
+    "tools-use": "Tools used",
+    "colab": "Team",
+    "project-link": "Project links"
 }

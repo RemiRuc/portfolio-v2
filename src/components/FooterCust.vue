@@ -5,7 +5,7 @@
       © Copyright 2019 Rémi RUCOJEVIC
     </div>
     <a href="/RemiRucojevicCV.pdf" target="_blank">
-      <i class="far fa-file-pdf"></i><p>Télécharger mon CV</p>
+      <i class="far fa-file-pdf"></i><p>{{$t("cv")}}</p>
     </a>
   </footer>
 

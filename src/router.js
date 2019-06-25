@@ -41,7 +41,7 @@ export default new Router({
       component: Aboute,
       beforeEnter: (to, from, next) => {
         const lang = to.params.lang
-        if (!['fr'].includes(lang)) return next(i18n.locale)
+        if (!['fr', 'en'].includes(lang)) return next(i18n.locale)
         if (i18n.locale === lang) return next()
         let msg;
         switch (to.params.lang) {

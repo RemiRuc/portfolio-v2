@@ -208,8 +208,8 @@ h1, h3, h4, p, a, ul{
   position: fixed;
   top: 0;
   left: 0;
-  width: 43px;
-  height: 43px;
+  width: 28px;
+  height:28px;
   border-radius: 50%;
   background-color: #2eab62;
   z-index: 50;
@@ -219,10 +219,10 @@ h1, h3, h4, p, a, ul{
   &::before{
     content: '';
     position: absolute;
-    top: 30%;
-    left: 30%;
-    width: 20px;
-    height: 20px;
+    top: 24%;
+    left: 24%;
+    width: 16px;
+    height: 16px;
 
     border-radius: 50%;
 

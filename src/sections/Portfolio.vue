@@ -4,14 +4,14 @@
     <h2 class="section-title">{{$t("portfolio")}}</h2>
     <div class="portfolio-container">
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal title='To Watch List' :subtitle='$t("webApplication")' link="toWatchList"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal title='Azbooka' :subtitle='$t("webApplication")' link="azbooka"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal :title='$t("IMNM")' :subtitle='$t("CreativeSound")' link="imaMadeNandoMo"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Chassing ghost' :subtitle='$t("CreativeSound")' link="chassingGhost"></PortfolioBlock>
       </div>
 
       <div class="portfolio-row">
-        <PortfolioBlock v-scroll-reveal :title='$t("IMNM")' :subtitle='$t("CreativeSound")' link="imaMadeNandoMo"></PortfolioBlock>
-        <PortfolioBlock v-scroll-reveal title='Chassing ghost' :subtitle='$t("CreativeSound")' link="chassingGhost"></PortfolioBlock>
         <PortfolioBlock v-scroll-reveal title='Co2 planete' subtitle='Dataviz 3d' link="co2planete"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='To Watch List' :subtitle='$t("webApplication")' link="toWatchList"></PortfolioBlock>
+        <PortfolioBlock v-scroll-reveal title='Azbooka' :subtitle='$t("webApplication")' link="azbooka"></PortfolioBlock>
       </div>
 
       <div class="portfolio-row">

@@ -16,6 +16,8 @@
     "webApplication": "Application web",
     "penaltyGame": "Jeu de penalty",
 
+    "resume":"Développeur web de métier et de passion, j'aime expérimenter avec tout ce que le web a à nous offrir. Très curieux dans la vie de tout les jours, la programmation est mon bac-à-sable rêvé où je peux tester absolument tout ce que je vois ou que j'imagine : Application web, application mobile, webdesign, 3D, motion design... Mon but est de donner une nouvelle dimension au web et aux applications mobiles en y ajoutant ce qui tient ce qui tient chaque personne en haleine devant un site : de l'interactivité.",
+
     "tools" : "Outils",
     "principales-comp" : "Compétences principales",
     "GDP" : "GESTION DE PROJET",
@@ -93,5 +95,14 @@
             "date" : "2014-2016",
             "description" :"Baccalauréat S (Scientifique)<br>Option : SI (Science de l’ingénieur)<br>Spécialité : ISN (Informatique et sciences du numérique)"
         }
-    }
+    },
+    "contact-text":"Besoin d'un site ? N'hésitez pas à me contacter sur les réseaux sociaux ou par mail pour me parler de votre projet et demander votre devis gratuit ! <br> Une question ? Envie de discuter, de prendre un café ? Pareil, utilisez les liens ci-dessous et prenons contact ensemble !",
+    "copy": "copié dans le presse-papier",
+    "cv": "Télécharger mon CV",
+
+    "presentation": "Présentation",
+    "tools-use": "Outils utilisés",
+    "colab": "Collaborateurs",
+    "project-link": "Liens du projet"
+
 }
