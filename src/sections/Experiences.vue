@@ -5,6 +5,7 @@
     <div class="timeline-container">
       <div class="timeline">
         <h3>Professionnelle :</h3>
+        <TimelineItem v-scroll-reveal :entreprise='$t("pro.tenri.name")' entrepriseImg="tenri" :poste='$t("pro.tenri.poste")' :date='$t("pro.tenri.date")' :description='$t("pro.tenri.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("pro.ibm.name")' entrepriseImg="ibm" :poste='$t("pro.ibm.poste")' :date='$t("pro.ibm.date")' :description='$t("pro.ibm.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("pro.toosla.name")' entrepriseImg="toosla" :poste='$t("pro.toosla.poste")' :date='$t("pro.toosla.date")' :description='$t("pro.toosla.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("pro.caq.name")' entrepriseImg="caq" :poste='$t("pro.caq.poste")' :date='$t("pro.caq.date")' :description='$t("pro.caq.description")'></TimelineItem>
@@ -13,6 +14,7 @@
       </div>
       <div class="timeline">
         <h3>Scolaire :</h3>
+        <TimelineItem v-scroll-reveal :entreprise='$t("edu.gobelins2.name")' entrepriseImg="gobelins" :poste='$t("edu.gobelins2.poste")' :date='$t("edu.gobelins2.date")' :description='$t("edu.gobelins2.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("edu.gobelins.name")' entrepriseImg="gobelins" :poste='$t("edu.gobelins.poste")' :date='$t("edu.gobelins.date")' :description='$t("edu.gobelins.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("edu.upem.name")' entrepriseImg="upem" :poste='$t("edu.upem.poste")' :date='$t("edu.upem.date")' :description='$t("edu.upem.description")'></TimelineItem>
         <TimelineItem v-scroll-reveal :entreprise='$t("edu.cassin.name")' entrepriseImg="cassin" :poste='$t("edu.cassin.poste")' :date='$t("edu.cassin.date")' :description='$t("edu.cassin.description")'></TimelineItem>

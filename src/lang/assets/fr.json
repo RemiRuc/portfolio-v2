@@ -44,6 +44,12 @@
     "japanease" : "Japonais",
 
     "pro" : {
+        "tenri" :{
+            "name" : "Tenri",
+            "poste" : "Développeur web & UX/UI designer (en freelance)",
+            "date" : "Depuis juillet 2019",
+            "description" :"- Concepetion et réalisation du nouveau site public (dispo en septembre 2019)<br>- Création d’un back office sur-mesure pour les employés<br>- Conseils les employés sur le référencement<br>- Le tout réalisé avec Laravel"
+        },
         "ibm" :{
             "name" : "IBM",
             "poste" : "Apprenti développeur front",
@@ -77,10 +83,16 @@
     },
 
     "edu" : {
+        "gobelins2":{
+            "name" : "Gobelins, l'école de l'image",
+            "poste" : "",
+            "date" : "2019 - 2021",
+            "description" :"<a href='https://www.gobelins.fr/formation/mdi-design-et-management-de-l-innovation-interactive-cycle-2-lead-technique-ou-lead' target='_blank'>Master Design et management de l'innovation interactive 'Lead technique' :</a>Formation en alternance dans le domaine du développement web."
+        },
         "gobelins" :{
             "name" : "Gobelins, l'école de l'image",
             "poste" : "",
-            "date" : "Depuis septembre 2018",
+            "date" : "2018 - 2019",
             "description" :"<a href='https://www.gobelins.fr/formation/bddi-bachelor-developpeur-interactif-cycle-1-en-1' target='_blank'>Bachelor Designer & Développeur Interactif :</a>Formation en alternance dans le domaine du développement web.<br>Option : Développement"
         },
         "upem" :{
